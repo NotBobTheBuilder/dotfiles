@@ -1,3 +1,4 @@
+alias http="python -m SimpleHTTPServer"
 function activate { . ~/envs/"$1"/bin/activate; }
 _activate()
 {
