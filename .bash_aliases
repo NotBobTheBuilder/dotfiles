@@ -1,3 +1,4 @@
+alias gittree="git log --oneline --graph --color --all --decorate"
 alias http="python -m SimpleHTTPServer"
 function activate { . ~/envs/"$1"/bin/activate; }
 _activate()
